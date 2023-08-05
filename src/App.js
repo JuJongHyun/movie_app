@@ -1,50 +1,10 @@
 import React from "react";
+import Home from "./routes/Home";
+import './App.css';
 
-class App extends React.Component {
-  constructor(props) {
-      super(props);
-      console.log('hello');
-  }
 
-  //state = 동적
-  state = {
-    count: 0,
-  };
-
-  add = () => {
-    this.setState(current => ({ 
-      count: this.state.count + 1,
-    }));
-  };
-
-  minus = () => {
-    this.setState(current => ({ 
-      count: this.state.count - 1,
-    }));
-  }
-
-  componentDidMount() {
-    console.log('component rendered');
-  }
-
-  componentDidUpdate() {
-    console.log('I just update');
-  }
-
-  componentWillUnmount() {
-    console.log('Goodbye, cruel world');
-  }
-
-  render() {
-    console.log("I'm rendering");
-    return (
-      <div>
-        <h1>The number is: {this.state.count}</h1>
-        <button onClick={this.add}>Add</button>
-        <button onClick={this.minus}>Minus</button>
-      </div>
-    )
-  }
+function App() {
+  return <Home />
 }
 
 export default App;
