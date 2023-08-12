@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JuJongHyun/movie_app/static/css/main.9fb939cb.css",
+    "main.js": "/JuJongHyun/movie_app/static/js/main.24cf88d7.js",
+    "index.html": "/JuJongHyun/movie_app/index.html",
+    "main.9fb939cb.css.map": "/JuJongHyun/movie_app/static/css/main.9fb939cb.css.map",
+    "main.24cf88d7.js.map": "/JuJongHyun/movie_app/static/js/main.24cf88d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fb939cb.css",
+    "static/js/main.24cf88d7.js"
+  ]
+}
